@@ -29,7 +29,7 @@ int main()
     int n, q, l, r, sum;
 
     scanf("%d", &n);
-    int a[n], tree[2*n+1];
+    int a[n], tree[4*n];
 
     for (int i = 0; i < n; i++) scanf("%d", &a[i]);
 
